@@ -1,0 +1,50 @@
+@import "tailwindcss";
+
+:root {
+  --background: #FAF7F2;
+  --foreground: #2C262E;
+  --taro-primary: #80598F;
+  --taro-light: #F4EFF7;
+  --taro-dark: #583366;
+  --amber-primary: #E68A3C;
+  --amber-light: #FEF6EE;
+  --amber-dark: #B96016;
+  --card-bg: #FFFFFF;
+}
+
+body {
+  background-color: #FAF7F2;
+  color: #2C262E;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Custom scrollbar for aesthetic feel */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #FAF7F2;
+}
+::-webkit-scrollbar-thumb {
+  background: #D9CEE0;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #B3A0BF;
+}
+
+/* Glassmorphism utility */
+.glass-nav {
+  background: rgba(250, 247, 242, 0.85);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+
+.glass-card {
+  background: rgba(255, 255, 255, 0.9);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+}

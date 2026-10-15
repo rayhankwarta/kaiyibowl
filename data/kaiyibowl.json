@@ -1,0 +1,390 @@
+{
+  "products": [
+    {
+      "id": "prod-1",
+      "name": "Signature Taro & Sweet Potato QQ Bowl",
+      "description": "Bola ubi ungu & oranye kenyal alami buatan tangan, grass jelly cincau organik lembut, boba aren, disiram kuah fresh creamy milk wangi pandan.",
+      "price": 32000,
+      "image": "https://images.unsplash.com/photo-1541658016709-82535e94bc69?auto=format&fit=crop&w=800&q=80",
+      "category": "Cold",
+      "toppings": [
+        "Taro QQ Ball",
+        "Sweet Potato QQ Ball",
+        "Grass Jelly",
+        "Boba Aren",
+        "Fresh Creamy Milk"
+      ],
+      "isPopular": true
+    },
+    {
+      "id": "prod-2",
+      "name": "Golden Mango Coconut QQ Bowl",
+      "description": "Kombinasi segar potongan mangga harum manis, nata de coco renyah, selasih, dan bola QQ kenyal dalam kuah santan kelapa gurih manis.",
+      "price": 35000,
+      "image": "https://images.unsplash.com/photo-1551024709-8f23befc6f87?auto=format&fit=crop&w=800&q=80",
+      "category": "Cold",
+      "toppings": [
+        "Fresh Mango Chunks",
+        "QQ Ball Trio",
+        "Nata De Coco",
+        "Chia/Selasih",
+        "Santan Kelapa Asli"
+      ],
+      "isPopular": true
+    },
+    {
+      "id": "prod-3",
+      "name": "Matcha Red Bean QQ Paradise",
+      "description": "Puding matcha Uji lembut, selai pasta kacang merah (adzuki) manis gurih, QQ ball ubi manis kenyal, disiram kuah oat milk dingin.",
+      "price": 36000,
+      "image": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?auto=format&fit=crop&w=800&q=80",
+      "category": "Cold",
+      "toppings": [
+        "Matcha Silky Pudding",
+        "Sweet Potato QQ Ball",
+        "Adzuki Red Bean",
+        "Oat Milk"
+      ],
+      "isPopular": false
+    },
+    {
+      "id": "prod-4",
+      "name": "Warm Ginger Pandan QQ Bowl (Hot)",
+      "description": "Disajikan hangat menyegarkan! Bola QQ ball taro & ubi jalar berpadu kuah wedang jahe emprit bakar gula aren wangi daun pandan alami.",
+      "price": 30000,
+      "image": "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=800&q=80",
+      "category": "Hot",
+      "toppings": [
+        "Warm Taro QQ",
+        "Warm Sweet Potato QQ",
+        "Wedang Jahe Gula Aren",
+        "Daun Pandan Segar"
+      ],
+      "isPopular": false
+    },
+    {
+      "id": "prod-5",
+      "name": "Chewy Taro Paste Deluxe",
+      "description": "Pecinta taro wajib coba! Puree pasta talas asli yang creamy lumer di mulut, taro QQ chewy, boba crystal, dan siraman fresh almond milk.",
+      "price": 38000,
+      "image": "https://images.unsplash.com/photo-1579954115545-a95591f28bfc?auto=format&fit=crop&w=800&q=80",
+      "category": "Special",
+      "toppings": [
+        "Creamy Taro Paste",
+        "Double Taro QQ",
+        "Crystal Boba",
+        "Almond Milk"
+      ],
+      "isPopular": true
+    }
+  ],
+  "batches": [
+    {
+      "id": "batch-1",
+      "name": "Batch 1: Pengiriman 20 Oktober",
+      "deliveryDate": "20 Oktober 2026",
+      "orderDeadline": "18 Oktober 2026, 21:00 WIB",
+      "quota": 40,
+      "orderedCount": 26,
+      "isOpen": true,
+      "notes": "Slot terbatas! Pengiriman via Kurir Instant & Sameday area Jabodetabek."
+    },
+    {
+      "id": "batch-2",
+      "name": "Batch 2: Pengiriman 27 Oktober",
+      "deliveryDate": "27 Oktober 2026",
+      "orderDeadline": "25 Oktober 2026, 21:00 WIB",
+      "quota": 50,
+      "orderedCount": 14,
+      "isOpen": true,
+      "notes": "Pilihan pas untuk akhir pekan bersama keluarga."
+    },
+    {
+      "id": "batch-3",
+      "name": "Batch 3: Pengiriman 3 November",
+      "deliveryDate": "3 November 2026",
+      "orderDeadline": "1 November 2026, 21:00 WIB",
+      "quota": 50,
+      "orderedCount": 0,
+      "isOpen": true,
+      "notes": "Akan segera dibuka setelah Batch 1 & 2 penuh."
+    }
+  ],
+  "orders": [
+    {
+      "id": "KYB-54162",
+      "batchId": "batch-2",
+      "batchName": "Batch 2: Pengiriman 27 Oktober",
+      "deliveryDate": "27 Oktober 2026",
+      "customerName": "opop",
+      "customerPhone": "09090909090",
+      "deliveryAddress": "lalalala",
+      "customerNotes": "less sugar",
+      "items": [
+        {
+          "productId": "prod-1",
+          "productName": "Signature Taro & Sweet Potato QQ Bowl",
+          "price": 32000,
+          "quantity": 1
+        },
+        {
+          "productId": "prod-2",
+          "productName": "Golden Mango Coconut QQ Bowl",
+          "price": 35000,
+          "quantity": 1
+        },
+        {
+          "productId": "prod-3",
+          "productName": "Matcha Red Bean QQ Paradise",
+          "price": 36000,
+          "quantity": 1
+        },
+        {
+          "productId": "prod-4",
+          "productName": "Warm Ginger Pandan QQ Bowl (Hot)",
+          "price": 30000,
+          "quantity": 1
+        },
+        {
+          "productId": "prod-5",
+          "productName": "Chewy Taro Paste Deluxe",
+          "price": 38000,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 171000,
+      "shippingFee": 15000,
+      "total": 186000,
+      "paymentProofUrl": "/uploads/transfer_1791873765098_8hqns7.jpeg",
+      "bankAccount": {
+        "bankName": "BCA",
+        "accountNumber": "8271928391",
+        "accountHolder": "KAIYIBOWL INDONESIA"
+      },
+      "status": "selesai",
+      "statusHistory": [
+        {
+          "status": "menunggu_verifikasi",
+          "timestamp": "2026-10-13T06:42:46.633Z",
+          "note": "Pesanan baru diterima, menunggu verifikasi transfer BCA."
+        },
+        {
+          "status": "terverifikasi",
+          "timestamp": "2026-10-13T06:45:51.125Z",
+          "note": "Pembayaran BCA telah diverifikasi oleh admin"
+        },
+        {
+          "status": "dimasak",
+          "timestamp": "2026-10-13T07:11:29.348Z",
+          "note": "Pesanan sedang diproduksi fresh di dapur"
+        },
+        {
+          "status": "dikirim",
+          "timestamp": "2026-10-13T07:11:42.937Z",
+          "note": "Pesanan telah dibawa oleh kurir sameday"
+        },
+        {
+          "status": "selesai",
+          "timestamp": "2026-10-13T07:12:23.179Z",
+          "note": "Pesanan telah berhasil diterima pelanggan"
+        }
+      ],
+      "createdAt": "2026-10-13T06:42:46.633Z",
+      "updatedAt": "2026-10-13T07:12:23.179Z"
+    },
+    {
+      "id": "KYB-98293",
+      "batchId": "batch-2",
+      "batchName": "Batch 2: Pengiriman 27 Oktober",
+      "deliveryDate": "27 Oktober 2026",
+      "customerName": "Rayhan",
+      "customerPhone": "085155336772",
+      "deliveryAddress": "Jl. Darussalam III A",
+      "customerNotes": "pisahkan santan",
+      "items": [
+        {
+          "productId": "prod-1",
+          "productName": "Signature Taro & Sweet Potato QQ Bowl",
+          "price": 32000,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 32000,
+      "shippingFee": 15000,
+      "total": 47000,
+      "paymentProofUrl": "/uploads/transfer_1791873296009_lkbppp.jpeg",
+      "bankAccount": {
+        "bankName": "BCA",
+        "accountNumber": "8271928391",
+        "accountHolder": "KAIYIBOWL INDONESIA"
+      },
+      "status": "selesai",
+      "statusHistory": [
+        {
+          "status": "menunggu_verifikasi",
+          "timestamp": "2026-10-13T06:34:58.147Z",
+          "note": "Pesanan baru diterima, menunggu verifikasi transfer BCA."
+        },
+        {
+          "status": "terverifikasi",
+          "timestamp": "2026-10-13T06:35:35.669Z",
+          "note": "Pembayaran BCA telah diverifikasi oleh admin"
+        },
+        {
+          "status": "dimasak",
+          "timestamp": "2026-10-13T06:35:44.548Z",
+          "note": "Pesanan sedang diproduksi fresh di dapur"
+        },
+        {
+          "status": "dikirim",
+          "timestamp": "2026-10-13T06:36:20.332Z",
+          "note": "Pesanan telah dibawa oleh kurir sameday"
+        },
+        {
+          "status": "selesai",
+          "timestamp": "2026-10-13T06:36:41.891Z",
+          "note": "Pesanan telah berhasil diterima pelanggan"
+        }
+      ],
+      "createdAt": "2026-10-13T06:34:58.147Z",
+      "updatedAt": "2026-10-13T06:36:41.891Z"
+    },
+    {
+      "id": "KYB-84920",
+      "batchId": "batch-1",
+      "batchName": "Batch 1: Pengiriman 20 Oktober",
+      "deliveryDate": "20 Oktober 2026",
+      "customerName": "Anindya Putri",
+      "customerPhone": "081234567890",
+      "deliveryAddress": "Jl. Melati Indah No. 14, RT 02/RW 05, Menteng, Jakarta Pusat",
+      "customerNotes": "Tolong kurangi es batunya ya kak, terima kasih!",
+      "items": [
+        {
+          "productId": "prod-1",
+          "productName": "Signature Taro & Sweet Potato QQ Bowl",
+          "price": 32000,
+          "quantity": 2
+        },
+        {
+          "productId": "prod-2",
+          "productName": "Golden Mango Coconut QQ Bowl",
+          "price": 35000,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 99000,
+      "shippingFee": 15000,
+      "total": 114000,
+      "paymentProofUrl": "https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?auto=format&fit=crop&w=600&q=80",
+      "bankAccount": {
+        "bankName": "BCA",
+        "accountNumber": "8271928391",
+        "accountHolder": "KAIYIBOWL INDONESIA"
+      },
+      "status": "terverifikasi",
+      "statusHistory": [
+        {
+          "status": "menunggu_verifikasi",
+          "timestamp": "2026-10-12T14:32:00.000Z",
+          "note": "Pesanan dibuat oleh pembeli, bukti transfer diunggah."
+        },
+        {
+          "status": "terverifikasi",
+          "timestamp": "2026-10-13T06:13:35.784Z",
+          "note": "Pembayaran BCA telah diverifikasi oleh admin"
+        }
+      ],
+      "createdAt": "2026-10-12T14:32:00.000Z",
+      "updatedAt": "2026-10-13T06:13:35.784Z"
+    },
+    {
+      "id": "KYB-31048",
+      "batchId": "batch-1",
+      "batchName": "Batch 1: Pengiriman 20 Oktober",
+      "deliveryDate": "20 Oktober 2026",
+      "customerName": "Budi Santoso",
+      "customerPhone": "081987654321",
+      "deliveryAddress": "Apartemen Sudirman Tower A Lt 18 Unit 1802, Jakarta Selatan",
+      "customerNotes": "Titip di resepsionis lobi utama.",
+      "items": [
+        {
+          "productId": "prod-1",
+          "productName": "Signature Taro & Sweet Potato QQ Bowl",
+          "price": 32000,
+          "quantity": 3
+        }
+      ],
+      "subtotal": 96000,
+      "shippingFee": 15000,
+      "total": 111000,
+      "paymentProofUrl": "https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?auto=format&fit=crop&w=600&q=80",
+      "bankAccount": {
+        "bankName": "BCA",
+        "accountNumber": "8271928391",
+        "accountHolder": "KAIYIBOWL INDONESIA"
+      },
+      "status": "terverifikasi",
+      "statusHistory": [
+        {
+          "status": "menunggu_verifikasi",
+          "timestamp": "2026-10-11T10:15:00.000Z",
+          "note": "Pesanan dibuat."
+        },
+        {
+          "status": "terverifikasi",
+          "timestamp": "2026-10-11T10:45:00.000Z",
+          "note": "Pembayaran telah dicek & diverifikasi via BCA oleh Admin."
+        }
+      ],
+      "createdAt": "2026-10-11T10:15:00.000Z",
+      "updatedAt": "2026-10-11T10:45:00.000Z"
+    },
+    {
+      "id": "KYB-90214",
+      "batchId": "batch-1",
+      "batchName": "Batch 1: Pengiriman 20 Oktober",
+      "deliveryDate": "20 Oktober 2026",
+      "customerName": "Clara Wijaya",
+      "customerPhone": "085712349988",
+      "deliveryAddress": "Kebayoran Baru, Jl. Senopati No. 88, Jakarta Selatan",
+      "customerNotes": "Tambahkan extra sendok dan mangkuk disposable.",
+      "items": [
+        {
+          "productId": "prod-5",
+          "productName": "Chewy Taro Paste Deluxe",
+          "price": 38000,
+          "quantity": 2
+        }
+      ],
+      "subtotal": 76000,
+      "shippingFee": 15000,
+      "total": 91000,
+      "paymentProofUrl": "https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?auto=format&fit=crop&w=600&q=80",
+      "bankAccount": {
+        "bankName": "BCA",
+        "accountNumber": "8271928391",
+        "accountHolder": "KAIYIBOWL INDONESIA"
+      },
+      "status": "dimasak",
+      "statusHistory": [
+        {
+          "status": "menunggu_verifikasi",
+          "timestamp": "2026-10-10T09:00:00.000Z",
+          "note": "Pesanan dibuat."
+        },
+        {
+          "status": "terverifikasi",
+          "timestamp": "2026-10-10T09:20:00.000Z",
+          "note": "Pembayaran diverifikasi."
+        },
+        {
+          "status": "dimasak",
+          "timestamp": "2026-10-10T14:00:00.000Z",
+          "note": "Adonan QQ Ball segar sedang diproduksi oleh chef."
+        }
+      ],
+      "createdAt": "2026-10-10T09:00:00.000Z",
+      "updatedAt": "2026-10-10T14:00:00.000Z"
+    }
+  ]
+}
